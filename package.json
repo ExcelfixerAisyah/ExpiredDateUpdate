@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@fastify/basic-auth": "^5.1.1",
+    "aws-lambda-fastify": "^2.2.0",
+    "aws-sdk": "^2.1691.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "fastify-multipart": "^5.4.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "papaparse": "^5.4.1",
+    "ssh2-sftp-client": "^11.0.0"
+  },
+  "name": "redmanshopfastify",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/ssh2-sftp-client": "^9.0.4"
+  }
+}
